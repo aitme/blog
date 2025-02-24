@@ -12,7 +12,16 @@ documentation for details.
 
 
 .. toctree::
-   :maxdepth: 3
-   :caption: linux:
+   :maxdepth: 1
+   :caption: linux文档
+   :glob:
+
+   linux/*
+
+
+.. toctree::
+   :maxdepth: 1
+   :caption: android文档
+   :glob:
    
-   android/Qemu运行基本的arm64环境.md
+   android/*
