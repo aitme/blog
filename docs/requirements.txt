@@ -1,5 +1,6 @@
+# docs/requirements.txt
+sphinx>=6.2.1,<7  # 推荐锁定到 6.x 系列
 sphinx_rtd_theme>=2.0.0
-recommonmark>=0.7.1
-markdown<3.4
-sphinx-markdown-tables>=0.0.15
-
+recommonmark==0.7.1  # 必须精确版本
+markdown>=3.0,<3.4  # 严格锁定范围
+sphinx-markdown-tables==0.0.15  # 精确版本
